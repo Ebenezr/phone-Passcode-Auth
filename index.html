@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- <img src="./assets/images/spotify-logo-png-7053.png" alt=""> -->
+            <div class="user">
+                <img src="./assets/images/profile.jpg" alt="logo">
+                <h3>Ebenezar Bukosia</h3>
+            </div>
+        </header>
+        <form action="" onsubmit="">
+            <label for="passcode">Enter passcode</label>
+            <input type="number" id="passcode" placeholder="*****" autofocus="" required pattern="/^-?\d+\.?\d*$/"
+                onKeyPress="if(this.value.length==5) return false;" />
+            <i class="far fa-eye" id="togglePassword"></i>
+            <div class="keyPad">
+                <button class="keyboard">1</button>
+                <button class="keyboard">2</button>
+                <button class="keyboard">3</button>
+                <button class="keyboard">4</button>
+                <button class="keyboard">5</button>
+                <button class="keyboard">6</button>
+                <button class="keyboard">7</button>
+                <button class="keyboard">8</button>
+                <button class="keyboard">9</button>
+                <button class="keyboard inactive" type="reset"><i class="fa fa-angle-left"></i></button>
+                <button class="keyboard">0</button>
+                <button class="keyboard clear"><i class="fa fa-angle-right"></i></button>
+
+            </div>
+    </div>
+
+</body>
+
+</html>
+
+<input type="checkbox" onclick="myFunction()">
